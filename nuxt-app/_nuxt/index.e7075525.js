@@ -1,0 +1,1 @@
+import{k as e,o as n,l as o,q as r,m as s}from"./entry.1e841f82.js";const a={};function d(c,t){return n(),o("div",null," Component: Home ")}const l=e(a,[["render",d]]),m={},f=s("h1",null,"我是首頁",-1);function i(c,t){const _=l;return n(),o("div",null,[f,r(_)])}const p=e(m,[["render",i]]);export{p as default};
