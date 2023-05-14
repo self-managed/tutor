@@ -1,7 +1,17 @@
-// import vuetify from 'vite-plugin-vuetify'
-// import { createResolver } from '@nuxt/kit'
 
-// const { resolve } = createResolver(import.meta.url)
+const routerBase =
+  process.env.DEPLOY_ENV === 'GH_PAGES'
+    ? {
+        router: {
+          base: '/tutor/'
+        }
+      }
+    : {}
+
+export default {
+  ...routerBase
+}
+
 
 export default defineNuxtConfig({
   css: [
